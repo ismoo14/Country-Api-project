@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(207, 26%, 17%);
+}
+.hero{
+    margin-top: 0px;
+}
+.where{
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(214, 212, 212);
+}
+.search-21{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(219, 217, 217);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 80px;
+    background-color: hsl(209, 23%, 22%);
+    box-shadow:   1px 3px 16px  rgb(26, 25, 25);
+    margin-top: 20px;
+    width: 100%;
+    min-width: 320px; 
+    box-sizing: border-box;
+}
+.mode-2{
+    font-size: 22px;
+}
+.section-11{
+    display: none;
+}
+.search-1{
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 140px;
+    border-radius: 8px;
+    box-shadow:   1px 3px 8px  rgb(126, 125, 125);
+}
+.filter{
+    font-size: 14px;
+}
+.display{ 
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 70px;
+    justify-content: space-evenly;
+    padding: 42px 80px;
+}
+.display1{
+    display: none;
+}
+.country-card{
+    background-color: hsl(209, 23%, 22%);
+    width: 260px;
+    border-radius: 7px;
+    padding: 5px;
+}
+.container{
+    padding: 12px
+}
+.flag-img {
+    width: 100%;
+}
+.names{
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    padding-top: 10px;
+    color: hsl(0, 0%, 99%);
+    font-weight: 300;
+}
+.names2{
+    color: wheat;
+}
+.popul{
+    font-size: 16px;
+    color: hsl(0, 100%, 100%);
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.region{
+    font-size: 16px;
+    color: hsl(0, 100%, 100%);
+    padding-top: 5px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 5px
+}
+.capital{
+    font-size: 16px;
+    color: hsl(0, 100%, 100%);
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.don:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.don{
+    border: none;
+    background-color: transparent;
+}
+.img-2{
+    width: 400px;
+}
+#back-button{
+    margin-top: 70px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    border-radius: 3px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 34px;
+    margin-left: 78px;
+    box-shadow:   1px 3px 16px  rgb(26, 25, 25);
+    color: hsl(0, 3%, 88%);
+    cursor: pointer;
+    background-color: hsl(209, 23%, 22%);
+}
+.name-1{
+    font-size: 18px;
+    color: rgb(236, 234, 234);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.name-11{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(236, 234, 234);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+@media(max-width: 699px){
+    .section-1{
+    margin-top: 36px;
+}
+.form{
+text-align: center;
+}
+.where{
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search-21{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#back-border{
+    box-shadow:   1px 3px 16px  rgb(172, 171, 171);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 80px;
+    background-color: hsl(209, 23%, 22%);
+    box-shadow:   1px 3px 16px  rgb(26, 25, 25);
+    margin-top: 20px;
+    width: 100%;
+    min-width: 320px; 
+    box-sizing: border-box;
+}
+.search-1{
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 140px;
+    border-radius: 8px;
+    box-shadow:   1px 3px 16px  rgb(26, 25, 25);
+    border: none;
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+    cursor: pointer;
+}
+.country-card{
+    background-color: hsl(209, 23%, 22%);
+    width: 260px;
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow:   1px 3px 16px  rgb(17, 17, 17);
+}
+#region-filter{
+    outline: none;
+    box-shadow:   1px 3px 16px  rgb(27, 27, 27);
+    border: none;
+    padding-left: 3px;
+    padding-right: 54px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: hsl(209, 23%, 22%);
+    font-size: 15px;
+    margin-top: 7px;
+    border-radius: 5px;
+    text-align: start;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.filter{
+    font-size: 14px;
+} 
+.country-details{
+    margin-top: 70px;
+}
+.second-2{
+    margin-bottom: 30px;
+}
+.second-3{
+    margin-bottom: 50px;
+}
+.name-1{
+    text-align: center;
+}
+.name-11{
+    text-align: center;
+}
+.firist-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+}
+
+
+
+@media(min-width: 700px){
+.section-1{
+    text-align: center;
+    margin-top: 70px;
+}
+.section-11{
+    display: none;
+}
+#back-button{
+    box-shadow:   1px 3px 16px  rgb(26, 25, 25);
+}
+.display1{
+    display: none;
+}
+.search-1{
+    background-color: hsl(209, 23%, 22%);
+    border: none;
+    box-shadow:   1px 3px 16px  rgb(26, 25, 25);
+    cursor: pointer;
+}
+#region-filter{
+    outline: none;
+    box-shadow:   1px 3px 16px  rgb(27, 27, 27);
+    border: none;
+    padding-left: 3px;
+    padding-right: 54px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    margin-top: 27px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(209, 23%, 22%);
+}
+.country-details{
+    margin-top: 70px;
+}
+.second-2{
+    margin-bottom: 30px;
+}
+.second-3{
+    margin-bottom: 50px;
+}
+.name-1{
+    text-align: center;
+    font-size: 19px;
+}
+.name-11{
+    text-align: center;
+    text-align: 20px;
+}
+.firist-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+}
+
+
+
+@media(min-width: 960px){
+.search-21{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 80px;
+    background-color: hsl(209, 23%, 22%);
+    box-shadow:   1px 3px 16px  rgb(26, 25, 25);
+    margin-top: 20px;
+    width: 100%;
+    min-width: 320px; 
+    box-sizing: border-box;
+}
+.section-1{
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 85px;
+}
+.section-11{
+    display: none;
+}
+.search-img{
+    width: 4%;
+}
+.form{
+    display: flex;
+}
+.search-1{
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 140px;
+    border-radius: 8px;
+    box-shadow:   1px 3px 16px  rgb(26, 25, 25);
+    margin-top: 9px;
+    border: none;
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+    cursor: pointer;
+}
+.filter{
+    font-size: 14px;
+}
+.display{ 
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 70px;
+    justify-content: space-evenly;
+    padding: 42px 80px;
+}
+.display1{
+    display: none;
+}
+.country-card{
+    background-color: hsl(209, 23%, 22%);
+    width: 260px;
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow:   1px 3px 16px  rgb(17, 17, 17);
+}
+
+.container{
+    padding: 12px
+}
+.flag-img {
+    width: 100%;
+}
+.names{
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    padding-top: 10px;
+    color: hsl(0, 0%, 99%);
+    font-weight: 300;
+}
+.names2{
+    color: wheat;
+}
+.popul{
+    font-size: 16px;
+    color: hsl(0, 100%, 100%);
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.region{
+    font-size: 16px;
+    color: hsl(0, 100%, 100%);
+    padding-top: 5px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 5px;
+}
+.capital{
+    font-size: 16px;
+    color: hsl(0, 100%, 100%);
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#region-filter{
+    outline: none;
+    box-shadow:   1px 3px 16px  rgb(27, 27, 27);
+    border: none;
+    padding-left: 3px;
+    padding-right: 54px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: hsl(209, 23%, 22%);
+    font-size: 15px;
+    margin-top: 8px;
+    border-radius: 5px;
+    color: white;
+}
+.don:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.don{
+    border: none;
+    background-color: transparent;
+}
+
+.country-details{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.second-1{
+    display: flex;
+    gap: 50px;
+}
+.img-2{
+    width: 400px;
+}
+#back-button{
+    margin-top: 70px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    border-radius: 3px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 34px;
+    margin-left: 78px;
+    box-shadow:   1px 3px 16px  rgb(26, 25, 25);
+    color: hsl(0, 3%, 88%);
+    cursor: pointer;
+    background-color: hsl(209, 23%, 22%);
+}
+.name-1{
+    font-size: 18px;
+    color: rgb(236, 234, 234);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: start;
+}
+.name-11{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: start;
+    font-size: 30px;
+    color: rgb(236, 234, 234);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+}
